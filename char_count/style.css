@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #ad88c6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: white ;
+    height: 350px;
+    width: 500px;
+    padding: 7px;
+    margin: 4px;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.txt-area{
+       height: 70px;
+       width: 100%;
+       padding: 8px;
+       font-family: cursive;
+       font-weight: 600;
+       color:black;
+       resize:none;
+       outline: none;
+       border: 2px solid #ad88c6;
+       border-radius: 4px;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.counter p{
+    font-size: 18px;
+    color: darkcyan;
+}
+.total-char{
+    color:green;
+    font-size: 16px;
+}
+.rem-char{
+    color:red;
+    font-size: 15px;
+}
